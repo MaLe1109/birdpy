@@ -2,7 +2,7 @@ from ursina import *
 
 app = Ursina()
 Sky()
-bird = Animation('assets/bird_blue', scale=2, collider='box')
+bird = Animation('bird_blue', scale=2, collider='box')
 
 camera.orthographic = True
 camera.fov = 15
